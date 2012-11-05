@@ -1,0 +1,66 @@
+/* Windows 8 Dark Theme
+ * Author: Zachary Lewis (http://zacharylew.is)
+ * Github: https://github.com/zachwlewis/launchy-w8
+ */
+
+#launchy {
+}
+
+#opsButton {
+	border: none;
+	background-image: url(option_dark.png);
+	qproperty-geometry: rect(436 40 24 24);
+}
+
+#opsButton:hover {
+	background-color: argb(40, 40, 43, 20%);
+}
+
+#opsButton:hover:pressed {
+	background-image: url(option_dark_pressed.png);
+	background-color: argb(40, 40, 43, 40%);
+}
+
+#workingAnimation {
+	qproperty-geometry: rect(412 40 24 24);
+}
+
+#input {
+	font: 16px "Segoe UI Semilight";
+	border-width: 0px;
+	background-color: argb(40, 40, 43, 0%);
+	border-style: solid;
+	color: #d4d4d5;
+	qproperty-alignment: AlignVCenter;
+	qproperty-geometry: rect(48 120 424 40);
+}
+
+#output {
+	font: 28px "Segoe WP Light";
+	border-width: 0px;
+	background-color: argb(40, 40, 43, 0%);
+	border-style: solid;
+	color: #28282b;
+	qproperty-alignment: AlignVCenter;
+	qproperty-geometry: rect(112 56 348 48);
+}
+
+#outputIcon {
+	qproperty-geometry: rect(56 56 48 48);
+}
+
+#alternatives {
+	font: 12px "Segoe UI Semilight";
+	background-color: #28282b;
+	alternate-background-color: #28282b;
+	color: #a9a9aa;
+	border-style: solid;
+	border-width: 0;
+	qproperty-geometry: rect(40 160 420 120);
+	padding: 0;
+}
+
+#alternativesPath {
+	font: 12px "Segoe UI Semilight";
+	color: #7e7e80;
+}

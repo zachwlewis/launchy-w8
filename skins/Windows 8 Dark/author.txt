@@ -1,0 +1,7 @@
+Windows 8 Dark 1.0
+
+A dark Windows 8-themed skin for Launchy.
+
+Created by Zachary Lewis (http://zacharylew.is)
+
+Github source available at https://github.com/zachwlewis/launchy-w8
